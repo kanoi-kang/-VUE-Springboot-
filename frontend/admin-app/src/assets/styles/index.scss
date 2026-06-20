@@ -1,0 +1,81 @@
+@use './variables.scss' as *;
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: $font-size-base;
+}
+
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+  font-size: $font-size-base;
+  color: $text-primary;
+  background-color: $bg-color;
+  line-height: 1.5;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.container {
+  padding: $spacing-md;
+}
+
+.page-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: $spacing-lg;
+  padding-bottom: $spacing-md;
+  border-bottom: 1px solid $border-color;
+}
+
+.page-title {
+  font-size: $font-size-xl;
+  font-weight: bold;
+}
+
+.btn-primary {
+  background: $primary-color;
+  color: #fff;
+  border: none;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+  
+  &:hover {
+    background: if($primary-color == #409eff, #66b1ff, $primary-color);
+  }
+}
+
+.btn-danger {
+  background: $danger-color;
+  color: #fff;
+  border: none;
+  padding: $spacing-sm $spacing-md;
+  border-radius: $border-radius-sm;
+  cursor: pointer;
+  
+  &:hover {
+    background: if($danger-color == #f56c6c, #f78989, $danger-color);
+  }
+}
+
+.el-table {
+  margin-top: $spacing-md;
+}
+
+.el-form-item {
+  margin-bottom: $spacing-md;
+}
+
+.el-pagination {
+  margin-top: $spacing-lg;
+  text-align: right;
+}

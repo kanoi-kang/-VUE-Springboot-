@@ -1,0 +1,1 @@
+import{f as t}from"./index-DYtB-_O_.js";const e=o=>t.get("/goods/products",{params:o}),r=o=>t.get(`/goods/products/${o}`),c=()=>t.get("/goods/products/best-sellers"),d=()=>t.get("/goods/products/hot");export{d as a,e as b,r as c,c as g};

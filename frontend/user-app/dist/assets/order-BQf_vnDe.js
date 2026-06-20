@@ -1,0 +1,1 @@
+import{f as e}from"./index-DYtB-_O_.js";const o=r=>e.get("/user/orders",{params:r}),n=r=>e.get(`/user/orders/${r}`),u=r=>e.post("/user/orders",r),a=r=>e.put(`/user/orders/${r}/cancel`),c=r=>e.put(`/user/orders/${r}/confirm`),d=(r,s)=>e.put(`/user/orders/${r}/pay`,s);export{o as a,a as b,u as c,c as d,n as g,d as p};

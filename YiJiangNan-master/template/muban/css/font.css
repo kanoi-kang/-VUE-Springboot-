@@ -1,0 +1,15 @@
+/* 思源黑体-常规 */
+@font-face {
+  font-family: "HM-Regular";
+  src: url('../fonts/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* 思源黑体-加粗 */
+@font-face {
+  font-family: "HM-Bold";
+  src: url('../fonts/HarmonyOS_Sans_SC/HarmonyOS_Sans_SC_Bold.ttf');
+  font-weight: normal;
+  font-style: normal;
+}

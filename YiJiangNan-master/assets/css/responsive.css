@@ -1,0 +1,290 @@
+/*  ====================================================================================================
+1 - media screen and (max-width: 1903px) - start
+==================================================================================================== */
+@media screen and (max-width: 1903px) {
+}
+
+/* ====================================================================================================
+1 - media screen and (max-width: 1903px) - end
+==================================================================================================== */
+
+/*  ====================================================================================================
+2 - media screen and (max-width: 1199px) - start
+==================================================================================================== */
+@media screen and (max-width: 1199px) {
+  .banner-section {
+    height: auto;
+  }
+  /* .fp-item .item-content .item-name-title,
+  .fp-item .item-content .item-contract span {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 300px;
+  } */
+}
+/*  ====================================================================================================
+2 - media screen and (max-width: 1199px) - end
+==================================================================================================== */
+
+/* ====================================================================================================
+3 - media screen and (max-width: 991px) - start --->>>for medium device
+==================================================================================================== */
+@media screen and (max-width: 991px) {
+  /* index page start */
+  .header-section {
+    padding: 5px 0;
+  }
+  .header-section .main-menubar {
+    padding: 0;
+  }
+  .header-section .main-menubar > ul {
+    display: none;
+  }
+  .header-section .main-menubar > .mobile-menu-btn {
+    display: inline-block;
+  }
+
+  .pricing-section .pricing-plan {
+    max-width: 400px;
+    margin: 30px auto 0px;
+  }
+  .eb-section .eb-wrap .event-location {
+    min-height: 52px;
+  }
+  .eb-section .eb-wrap .eb-title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 218px;
+  }
+  
+  .eb-wrap .eb-bottom .blog-footer .blog-type-tag {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 81px;
+  }
+  /* .fp-item .item-content .item-name-title,
+  .fp-item .item-content .item-contract span {
+    width: 270px;
+  } */
+  /* index page end */
+
+  /* blog pages sidebar start*/
+  .single-sidebar .recent-post .rp-thumb {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  /* blog pages sidebar end*/
+
+  /* Single List Page Start */
+  .reviews-div .overall-rating {
+    margin-top: 16px;
+  }
+
+  /* Single List Page End*/
+}
+
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+  
+.how-it-work-section .hiw-wrap span.hiw-item-no {
+  font-size: 58px;
+}
+}
+
+/* ====================================================================================================
+ media screen and (max-width: 991px) - end --->>>for medium device
+==================================================================================================== */
+
+/* ====================================================================================================
+4 - media screen and (max-width: 767px) - start --->>>For Mobile Device
+==================================================================================================== */
+
+@media screen and (max-width: 768px) {
+  /* Home Page Start */
+  .banner-section .item-ctg,
+  .banner-section .item-ctg-title {
+    display: none !important;
+  }
+  .dropdown .dropdown-select {
+    letter-spacing: initial;
+  }
+
+  .how-it-work-section .hiw-wrap h5 {
+    min-height: 60px;
+  }
+  /* Home Page Start */
+
+  /* single listing page start */
+  .listing-item-action {
+    justify-content: start;
+  }
+  .listing-content-right .follow-profile .follow-status > ul > li {
+    padding: 10px 6px;
+  }
+  /* single listing page end */
+
+  /* blog pages sidebar start*/
+  .single-sidebar .recent-post .rp-thumb {
+    width: 100%;
+    margin-bottom: inherit;
+  }
+  /* blog pages sidebar end*/
+
+  /* Single Blog Page start */
+  .blog-tags-share-wrap .blog-share {
+    margin-top: 16px;
+  }
+  .blog-comments-div .blog-commenter-name {
+    flex-direction: column;
+    align-items: center;
+  }
+  .blog-comments-div .blog-commenter-name h5 {
+    margin-bottom: 0px;
+  }
+  .blog-comments-div .blog-author-paragraph {
+    margin-top: 10px;
+  }
+  /* Single Blog Page End */
+  /* single-listing Start */
+  .single-listing-banner-section .listing-title {
+    padding-top: 150px;
+    padding-bottom: 25px;
+  }
+  /* single-listing Start */
+}
+/* ====================================================================================================
+ media screen and (max-width: 767px) - end --->>>For Mobile Device
+==================================================================================================== */
+
+/* ====================================================================================================
+5 - media screen and (max-width: 680px) - start
+==================================================================================================== */
+
+@media only screen and (min-width: 576px) and (max-width: 768px) {
+  
+  .eb-title-events {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    width: 218px;
+  }
+}
+@media screen and (max-width: 560px) {
+  .how-it-work-section .hiw-wrap h5 {
+    min-height: inherit;
+  }
+}
+/* ====================================================================================================
+6 - media screen and (max-width: 560px) - start
+==================================================================================================== */
+@media screen and (max-width: 560px) {
+  /* Header section start */
+  .header-section .main-menubar > .mobile-menu-btn {
+    /* margin: -40px 0px; */
+    display: inline-block;
+  }
+
+  /* Header section end */
+  /* Map start */
+  .listing-map-wrap .contact-map .mapouter {
+    position: relative;
+    text-align: right;
+    height: 250px;
+    width: 100%;
+    margin-bottom: 30px;
+  }
+  .contact-map .gmap_canvas iframe {
+    width: 100%;
+    height: 250px;
+    border: none;
+  }
+  /* Map End */
+  /* blog pages sidebar start*/
+  .single-sidebar .recent-post .rp-thumb {
+    width: inherit;
+  }
+  /* blog pages sidebar end*/
+
+}
+
+/* ====================================================================================================
+7 - media screen and (max-width: 480px) - start
+==================================================================================================== */
+@media screen and (max-width: 480px) {
+  .search-bar {
+    padding-bottom: 15px;
+  }
+  /* Footer section start */
+  .footer-section .footer-widget .main-title {
+    text-align: center;
+  }
+  .footer-section .footer-widget .widget-nav-menu {
+    display: flex;
+    justify-content: center;
+  }
+  .footer-section .footer-widget .widget-two {
+    background-color: #0d0d0d;
+  }
+  .footer-section .footer-widget .widget-two p {
+    text-align: center;
+  }
+  .submit-subscribe-btn {
+    font-size: 14px;
+    padding: 0 15px 0 15px;
+  }
+  /* Footer section end */
+
+  /* listing page-1 start */
+  .pagination-wrap .page-item .page-link {
+    font-size: 16px;
+    line-height: 10px;
+    padding-left: 10px;
+    height: 30px;
+    width: 30px;
+  }
+  .pagination-wrap .page-item .page-link i {
+    line-height: 10px;
+  }
+  .fp-item .item-content{
+    font-size: 14px;
+  }
+  .fp-item .item-content .item-name-title {
+    font-size: 24px;
+  }
+  /* listing page-1 end */
+}
+
+/* ====================================================================================================
+8 - media screen and (max-width: 320px) - start
+==================================================================================================== */
+@media screen and (max-width: 320px) {
+  .mobile-menu-container .left-sidebar {
+    width: 280px;
+  }
+  /* mobile header start */
+
+  /* mobile header end */
+}
+
+/* ====================================================================================================
+media screen and (max-height: 480px and min-height: 325px) - start
+==================================================================================================== */
+@media only screen and (max-height: 320px) {
+  .banner-section {
+    min-height: 170vh;
+  }
+  .banner-section .wrapper {
+    min-height: 170vh;
+    padding-top: 8rem;
+  }
+}
+@media only screen and (max-height: 480px) and (min-height: 325px) {
+  .item-ctg {
+    display: none !important;
+  }
+}
+/* ====================================================================================================
+media screen and (max-height: 480px and min-height: 325px) - end
+==================================================================================================== */

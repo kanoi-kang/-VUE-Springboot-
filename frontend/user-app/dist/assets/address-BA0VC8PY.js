@@ -1,0 +1,1 @@
+import{f as e}from"./index-DYtB-_O_.js";const t=()=>e.get("/user/addresses"),u=s=>e.get(`/user/addresses/${s}`),a=s=>e.post("/user/addresses",s),n=(s,r)=>e.put(`/user/addresses/${s}`,r),o=s=>e.delete(`/user/addresses/${s}`),c=s=>e.put(`/user/addresses/${s}/default`);export{u as a,a as c,o as d,t as g,c as s,n as u};
